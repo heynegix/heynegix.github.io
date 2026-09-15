@@ -173,8 +173,15 @@ a:focus-visible {
   background: var(--surface-hover);
 }
 
-.project-card--soon {
-  background: transparent;
+.project-card__cover {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  display: block;
+  margin-bottom: 24px;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  background: #0a0d0b;
+  object-fit: contain;
 }
 
 .project-card__topline {
