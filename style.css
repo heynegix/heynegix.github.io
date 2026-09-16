@@ -63,18 +63,6 @@ a:focus-visible {
   padding-top: 4vh;
 }
 
-.hero__banner {
-  width: 100%;
-  max-width: 780px;
-  aspect-ratio: 3 / 1;
-  display: block;
-  margin: 0 0 28px;
-  border: 1px solid var(--border);
-  border-radius: 8px;
-  background: #000;
-  object-fit: cover;
-}
-
 .hero__identity {
   display: flex;
   align-items: center;
